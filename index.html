@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eshkere game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>Крестики-Нолики</h2>
+      </header>
+      <div class="game-board">
+        <div class="board-cell" data-index="0"></div>
+        <div class="board-cell" data-index="1"></div>
+        <div class="board-cell" data-index="2"></div>
+        <div class="board-cell" data-index="3"></div>
+        <div class="board-cell" data-index="4"></div>
+        <div class="board-cell" data-index="5"></div>
+        <div class="board-cell" data-index="6"></div>
+        <div class="board-cell" data-index="7"></div>
+        <div class="board-cell" data-index="8"></div>
+      </div>
+      <div class="game-controls">
+        <input type="text" id="player1-name" placeholder="Игрок 1" />
+        <input type="text" id="player2-name" placeholder="Игрок 2" />
+       <p> <button id="start-game">Начать игру</button> </p>
+      </div>
+      <div class="game-result">
+        <p id="result-message"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
